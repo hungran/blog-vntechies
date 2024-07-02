@@ -17,11 +17,11 @@ export default function Header() {
           <div className="flex items-center justify-between">
             <div className="mr-3">
               <Image
-                src={'/static/images/logo.webp'}
-                width="200px"
-                height="40px"
+                src="/static/images/logo.webp"
+                width={200}
+                height={40}
                 alt="avatar"
-                className="h-10 w-10 rounded-full"
+                className="h-10 w-10 rounded-full grayscale hover:grayscale-0"
               />
             </div>
           </div>
