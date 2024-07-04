@@ -1,5 +1,5 @@
 import Link from '@/components/Link'
-import Image from 'next/image'
+import Image from 'next/legacy/image'
 
 const ArticleThumbnail = ({ slug, title, image }) => {
   return (

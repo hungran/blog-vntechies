@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-import Image from 'next/image'
+import Image from 'next/legacy/image'
 import Link from '@/components/Link'
 import Tag from '@/components/Tag'
 import ArticleThumbnail from './ArticleThumbnail'

@@ -1,6 +1,6 @@
 import Link from './Link'
 import siteMetadata from '@/data/siteMetadata'
-import Image from 'next/image'
+import Image from 'next/legacy/image'
 import { footerNavLinks } from '@/data/Links'
 
 export default function Footer() {
